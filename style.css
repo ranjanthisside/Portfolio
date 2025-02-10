@@ -27,6 +27,8 @@ nav a{
     color: #F8F4E2;
     display: flex;
     align-items: center;
+    /* font-family: poppins;
+    font-weight: light; */
 }
 nav img{
     width: 40px;
@@ -177,6 +179,12 @@ p{
     background-color: #B09070;
     text-decoration: none;
     color: #533007;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 17px;
+    
+}
+.socialLink p{
+    color: #533007;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-left: 0%;
 }
