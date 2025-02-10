@@ -157,9 +157,26 @@ p{
     gap: 20px;
 }
 .logo{
+    
+    height: 70px;
+    object-fit: contain;
+}
+.social>a{
     padding: 30px 30px 30px 30px;
     border: #533007 solid 1px;
     border-radius: 15px;
-    height: 70px;
-    object-fit: contain;
+}
+
+.socialLink{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5vw;
+    background-color: #B09070;
+    text-decoration: none;
+    color: #533007;
+    font-size: 20px;
+    font-weight: bold;
 }
