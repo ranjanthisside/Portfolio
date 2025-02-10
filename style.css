@@ -126,7 +126,7 @@ p{
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    gap: 5px;
+    gap: 15px;
     background-color: #F8F4E2;
     padding: 5vw 10vw 5vw 10vw;
     border: #533007 solid 5px;  
@@ -146,6 +146,7 @@ p{
     gap: 10px;
     padding: 5vw;
     background-color: #B09070;
+    
 }
 .connect>img{
     width: 400px;
@@ -153,10 +154,12 @@ p{
 }
 
 .social{
+    width: 80vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 .logo{
     
@@ -184,7 +187,7 @@ p{
 }
 .socialLink p{
     color: #533007;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bolder;
     padding-left: 0%;
 }
